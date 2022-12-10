@@ -1,0 +1,104 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(0, 170, 142), rgb(76, 201, 93) 50%, rgb(237, 248, 83) 100%);
+}
+
+.base {
+    display: block;
+    margin-top: 8em;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(33, 141, 0);
+    border-radius: 40px;
+    box-shadow: 12px 10px 13px -3px rgba(0,0,0,0.1);
+}
+
+.in-base {
+    width: 500px;
+    height: 300px;
+}
+
+.in-base h1 {
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+    margin-left: 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 78, 7);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#gerar {
+    width: 457px;
+    height: 45px;
+    background-color: rgb(25, 104, 2);
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 22px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+h1:hover {
+    color: rgb(211, 211, 211);
+}
+
+#gerar:hover {
+    background-color: rgb(0, 78, 7);
+    cursor: pointer;
+}
+
+/* Pix Gerado */
+
+.pix-gerado {
+    display: none;
+    margin-top: 8em;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(33, 141, 0);
+    border-radius: 40px;
+    box-shadow: 12px 10px 13px -3px rgba(0,0,0,0.1);
+    transition: 1s;
+}
+
+.pix-gerado h1 {
+    color: white;
+    text-align: center;
+}
+
+#qr-code {
+    width: 500px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#gerar-novamente {
+    width: 457px;
+    height: 45px;
+    background-color: rgb(25, 104, 2);
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 22px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#gerar-novamente:hover {
+    background-color: rgb(0, 78, 7);
+    cursor: pointer;
+}
